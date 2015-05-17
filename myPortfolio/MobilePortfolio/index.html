@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Author:Darshankumar patel
+    Name: index.html
+    Description:this is mobile portfolio of darshankumar patel that covers many pages about him and his works-->
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="themes/myTheme.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link href="css/lightSlider.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <script src="Jquery Mobile/jquery.min.js"></script>
+    <script src="Jquery Mobile/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/jquery.lightSlider.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#demo").lightSlider({
+                item: 1,
+                loop: true
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div data-role="page" id="home" data-theme="d">
+        <div data-role="header">
+            <h1 style="font-family:Arial">Darshan's Portfolio</h1>
+
+        </div>
+
+        <img id="im" src="images/logo.png" align="left">
+
+        <div data-role="navbar">
+            <ul>
+                <li> <a href="#home" data-icon="home" data-transition="flip">Home</a></li>
+                <li> <a href="#aboutMe" data-icon="info" data-transition="flip">About Me</a></li>
+                <li> <a href="#contactMe" data-icon="check" data-transition="flip">Contact Me</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="#project" class="ui-btn" data-transition="flip">Projects</a></li>
+                <li><a href="#services" class="ui-btn" data-transition="flip">Services</a></li>
+            </ul>
+        </div>
+        <h2 style="font-family:arial;margin-left:40px">Darshan Patel</h2>
+        <p style="font-family:arial;margin-left:40px">
+            I use my creativity, experience and passion for programming to develop innovative software.
+        </p>
+
+        <div data-role="main" class="demo ui-content">
+            <center>
+                <!--image slider from jqueryByExample.net-->
+                <ul id="demo">
+                    <li><img src="images/surveytool.png" alt="Pic 01" /></li>
+                    <li><img src="images/parksmartly.png" alt="Pic 02" /></li>
+                    <li><img src="images/Lclub.png" alt="Pic 03" /></li>
+                </ul>
+            </center>
+        </div>
+
+
+        <div data-role="footer">
+            <h2>&copy;  2015  Darshankumar</h2>
+        </div>
+        <a href="http://studentweb.cencol.ca/dpate340/home.html" style="margin:auto; text-align:center; display:block;">Full Site</a>
+    </div>
+    <div data-role="page" id="aboutMe" data-theme="d">
+        <div data-role="header">
+            <a href="#" data-rel="back" data-icon="back">Back</a>
+            <h1 font-family:arial>About Me</h1>
+        </div>
+
+
+        <div data-role="navbar">
+            <ul>
+                <li> <a href="#home" data-icon="home" data-transition="flip">Home</a></li>
+                <li> <a href="#aboutMe" data-icon="info" data-transition="flip">About Me</a></li>
+                <li> <a href="#contactMe" data-icon="check" data-transition="flip">Contact Me</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="#project" class="ui-btn" data-transition="flip">Projects</a></li>
+                <li><a href="#services" class="ui-btn" data-transition="flip">Services</a></li>
+            </ul>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div style="width:auto"> <img id="im" src="images/my.jpg" style="width:190px;height:190px" align="middle"></div>
+
+            <h2 style="font-family:arial">Darshan Patel</h2>
+            <p style="font-family:arial">
+                I use my creativity, experience and passion for programming to develop innovative software. I help people to transform their ideas into programming. I love collaborating with people of software industry
+                to gain more knowledge from them.
+            </p>
+            <div data-role="collapsible">
+                <h1>My Curriculum vitae</h1>
+                <p>
+                    <h2 style="text-align:left;">Darshan Patel</h2>
+                    <h4 style="text-align:left">101, 1 tuxedo court</h4>
+                    <h4 style="text-align:left">scarborough,ON M1G3S5</h4>
+                    <h4 style="text-align:left"> T: +14167267607</h4>
+                    <h4 style="text-align:left"> E: darshrp@yahoo.com</h4>
+                </p>
+
+                <h2 style="text-align:left">
+                    Career Summary
+                </h2><p>
+                    <h5 style="text-align:left;font-size:medium">- Experience in various phases of software Development - Planning, Designing, Development</h5>
+                    <h5 style="text-align:left;font-size:medium">- Good communication skills, Good Team Sprit and willingness to learn Excellent analytical, organizational, planning skills.</h5>
+                    <h5 style="text-align:left;font-size:medium">- Strong technical background with excellent problem solving and communication skills. </h5>
+                    <h5 style="text-align:left;font-size:medium">- Good team player with an ability to work on multiple technologies. </h5>
+
+                </p>
+
+                <h2 style="text-align:left">Skills Summary</h2>
+                <p>
+
+                    <h5 style="text-align:left;font-size:medium">•  C#,ASP.NET,HTML, CSS</h5>
+                    <h5 style="text-align:left;font-size:medium">•	SQL Server 2012</h5>
+                    <h5 style="text-align:left;font-size:medium">•	Javascript, jQuery and AJAX,XML and Web Services</h5>
+
+                </p>
+
+                <h2 style="text-align:left">Academic Qualification</h2>
+                <p>
+                    <h5 style="text-align:left;font-size:medium">Bachelor of Engineering in Computer science from Gujarat Technological University</h5>
+                    <h5 style="text-align:left;font-size:medium">Higher Secondary Certificate from D.Z.Patel,Anand ,Gujarat</h5>
+                </p>
+
+                <h2 style="text-align:left">Projects</h2>
+                <p>
+                    <h4 style="text-align:left;font-size:large">Magic Survey Tool.</h4>
+                    <h5 style="text-align:left;font-size:medium"> Language:	ASP.Net, C#.</h5>
+                    <h5 style="text-align:left;font-size:medium"> Tools: Visual Studio 2010, SQL Server 2008.</h5>
+                    <h5 style="text-align:left;font-size:medium">Performed business and system analysis, designed application and database structure.</h5>
+
+
+                    <h4 style="text-align:left;font-size:large">Park smartly.</h4>
+                    <h5 style="text-align:left;font-size:medium"> Language:	ASP.Net, C#.</h5>
+                    <h5 style="text-align:left;font-size:medium"> Tools: Visual Studio 2012, SQL Server 2012</h5>
+                    <h5 style="text-align:left;font-size:medium">used agile methodology and git hub for project development.</h5>
+
+                </p>
+            </div>
+        </div>
+        <div data-role="footer">
+            <h2>&copy;  2015  Darshankumar</h2>
+        </div>
+    </div>
+
+    <div data-role="page" id="project" data-theme="d">
+        <div data-role="header">
+            <a href="#" data-rel="back" data-icon="back">Back</a>
+            <h1>Projects</h1>
+        </div>
+
+        <div data-role="navbar">
+            <ul>
+                <li> <a href="#home" data-icon="home" data-transition="flip">Home</a></li>
+                <li> <a href="#aboutMe" data-icon="info" data-transition="flip">About Me</a></li>
+                <li> <a href="#contactMe" data-icon="check" data-transition="flip">Contact Me</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="#project" class="ui-btn" data-transition="flip">Projects</a></li>
+                <li><a href="#services" class="ui-btn" data-transition="flip">Services</a></li>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h1>Projects</h1>
+            <div data-role="collapsible" data-icon="none">
+                <h1>
+                    <img id="im" src="images/surveytool.png" align="middle">
+                </h1>
+
+                <h2 style="color:#7c5e90">Magic Survey Tool</h2>
+                <p style="color:#8b888e;font-size:medium">
+                    Magic Survet Tool is web base application that allows user to create their own survey with lots of different type of questions, send it to the responders via link in email.System will automatically generates visual reports.
+                </p>
+                <h5 style="text-align:left;font-size:medium;color:#8b888e"> Language:	ASP.Net, C#.</h5>
+            </div>
+            <div data-role="collapsible" data-icon="none">
+                <h1>
+                    <img id="im" src="images/parksmartly.png" align="middle">
+                </h1>
+                <h2 style="color:#7c5e90">Park Smartly</h2>
+                <p style="color:#8b888e;font-size:medium;">
+                    Park Smartly is web base application that automatically finds nearest available parking space.User can book parking space online,extends time limit,search his car location.System generate parking tickets for drivers.
+                </p>
+                <h5 style="text-align:left;font-size:medium;color:#8b888e"> Language:	ASP.Net, C#.</h5>
+                <h5 style="text-align:left;font-size:medium;color:#8b888e"><a href="https://github.com/COMP231-S63G2/Park_Smartly_G2" role="button">GitHub</a></h5>
+
+            </div>
+            <div data-role="collapsible" data-icon="none">
+                <h1>
+                    <img id="im" src="images/Lclub.png" align="middle">
+                </h1>
+                <h2 style="color:#7c5e90">Leisure Club</h2>
+                <p style="color:#8b888e;font-size:medium;">
+                    Leisure club is a web based application that allowws event management for recreational club.User can make their own schedule and subscribe based on their availibility.Application provide all up comming events information to the subscriber.
+                </p>
+                <h5 style="text-align:left;font-size:medium;color:#8b888e"> Language:	ASP.Net, C#.</h5>
+            </div>
+        </div>
+        <div data-role="footer">
+            <h2>&copy;  2015  Darshankumar</h2>
+        </div>
+    </div>
+    <div data-role="page" id="contactMe" data-theme="d">
+        <div data-role="header">
+            <a href="#" data-rel="back" data-icon="back">Back</a>
+            <h1>Contact Information</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li> <a href="#home" data-icon="home" data-transition="flip">Home</a></li>
+                <li> <a href="#aboutMe" data-icon="info" data-transition="flip">About Me</a></li>
+                <li> <a href="#contactMe" data-icon="check" data-transition="flip">Contact Me</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="#project" class="ui-btn" data-transition="flip">Projects</a></li>
+                <li><a href="#services" class="ui-btn" data-transition="flip">Services</a></li>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+
+            <h1 style="margin-left:80px">Darshan Patel</h1>
+            <h4 style="margin-left:90px">101,1 tuxedo court</h4>
+            <h4 style="margin-left:90px">scarborough,ON M1G3S5</h4>
+            <h4 style="margin-left:90px"> T: +14167267607</h4>
+            <h4 style="margin-left:90px"> E: darshrp@yahoo.com</h4>
+
+            <a href="tel:+14167267607" class="ui-btn">Call Me</a>
+        </div>
+        <h2 style="color:#7c5e90;margin-left:40px">Stay Connected</h2>
+        <a style="margin-left:80px;" href="https://www.facebook.com/darshan.patel.7161" class="ui-alt-icon" data-transition="flip">
+            <img src="images/fb.png" />
+        </a>
+        <a style="margin-left:30px;" href="https://www.linkedin.com/profile/view?id=391498420&trk=nav_responsive_tab_profile" class="ui-alt-icon" data-transition="flip">
+            <img src="images/lnk.png" />
+        </a>
+        <a style="margin-left:30px;" href="https://plus.google.com/u/0/106210558034958799243/posts" class="ui-alt-icon" data-transition="flip">
+            <img src="images/gpls.png" />
+        </a>
+        <div style="margin-top:20px" data-role="footer">
+            <h2>&copy;  2015  Darshankumar</h2>
+        </div>
+    </div>
+    <div data-role="page" id="services" data-theme="d">
+        <div data-role="header">
+            <a href="#" data-rel="back" data-icon="back">Back</a>
+            <h1> Services</h1>
+
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li> <a href="#home" data-icon="home" data-transition="flip">Home</a></li>
+                <li> <a href="#aboutMe" data-icon="info" data-transition="flip">About Me</a></li>
+                <li> <a href="#contactMe" data-icon="check" data-transition="flip">Contact Me</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="#project" class="ui-btn" data-transition="flip">Projects</a></li>
+                <li><a href="#services" class="ui-btn" data-transition="flip">Services</a></li>
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <h2 style="color:#7c5e90">Web Development</h2>
+            <p style="color:#8b888e">
+                I provide web designing service.My main aim is to provide lowest prices services to my clients.I use innovative designs, modern development techniques that makes your site attractive and unique.
+            </p>
+
+            <h2 style="color:#7c5e90">Mobile Application Development</h2>
+            <p style="color:#8b888e">
+                My objective is to to create mobile software by combining skills with a dedication to prepare the best apps.I offers cost efficient and reliable android app development services that meets your business objectives.
+            </p>
+        </div>
+
+        <div style="margin-top:20px" data-role="footer">
+            <h2>&copy;  2015  Darshankumar</h2>
+        </div>
+    </div>
+</body>
+</html>

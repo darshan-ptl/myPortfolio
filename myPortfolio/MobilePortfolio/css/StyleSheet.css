@@ -1,0 +1,19 @@
+﻿.demo {
+    width:420px;
+}
+.demo ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+.demo ul li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+.demo ul li img {
+    display: block;
+    width:100%;
+    height:100%;
+}
